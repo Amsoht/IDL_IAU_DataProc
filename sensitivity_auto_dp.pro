@@ -53,7 +53,7 @@ PRO SENSITIVITY_AUTO_DP
     instr_type=((dp_chrom[0]).instr_type)[0]
         
     ;******************************************************************************************
-;    load expinfo ;from dp_wid_main_handle
+;load expinfo ;from dp_wid_main_handle
 
   del_results=0
 ;        IF SIZE(dp_expcfg, /TYPE) EQ 11 THEN BEGIN ; dp_expcfg is already a LIST, i.e. data was loaded before
