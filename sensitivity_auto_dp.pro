@@ -35,7 +35,7 @@ PRO SENSITIVITY_AUTO_DP
 ;          IF quest EQ 'No' THEN RETURN
 ;        ENDIF
 
-  dp_chrom = dp_restore_chrom(dp_chrom, dp_vers, PATH=path_wd, VERBOSE=verbose)
+  dp_chrom = dp_restore_chrom(dp_chrom, dp_vers, PATH=path_wd, FNAME=path_chrom, VERBOSE=verbose) ;set path_chrom ******************
   dp_chrom = dp_correct_time(dp_chrom, VERBOSE=verbose, /LOUD) ; correct for "jumps" in Chemstation cdf timestamps
   dp_expcfg = !NULL
 

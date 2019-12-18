@@ -181,7 +181,7 @@ PRO dp_dbscript_call, event, LOAD_1ST_ONLY=load_1st_only, VERBOSE=verbose
           ENDFOR
         ENDIF
 
-      ENDIF ; end if: load first only
+      ENDIF ; end if not: load first only
 
     ENDFOR ; end loop: N EXPERIMENTS
 

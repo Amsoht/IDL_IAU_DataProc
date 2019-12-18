@@ -11,9 +11,11 @@ PRO dp_def_common, v
 ; +++ data
 ; +++
   COMMON DP_DATA, path_wd, error_handler_IO, dp_chrom, dp_expcfg, chromlist, expinflist, substlist, $
-                  dp_vers, cal_ip_mthd, cal_treat_mthd, sam_treat_mthd, sid_name, instr, prc_limits
+                  dp_vers, cal_ip_mthd, cal_treat_mthd, sam_treat_mthd, sid_name, instr, prc_limits, path_chrom, path_expcfg
 
-
+    path_chrom = ''
+    path_expcfg = ''
+    
     path_wd     = ''
     error_handler_IO = 1
 

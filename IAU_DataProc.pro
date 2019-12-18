@@ -19,6 +19,18 @@ PRO IAU_DataProc
   dp_def_common, '1.29' ; string == version
 
   path_wd = 'D:\'
+  
+  path_chrom = [$
+    'C:\WiMi_ab_Maerz2019\Southtrac\Daten_Kampagnenfluege\20190918_ST11_Lokalflug_RG4\ECD\gauSGbase\chrom_20190918_201912161524.dat',$
+    'C:\WiMi_ab_Maerz2019\Southtrac\Daten_Kampagnenfluege\20190918_ST11_Lokalflug_RG4\ECD\gbl\chrom_20190918_201912161524.dat',$
+    'C:\WiMi_ab_Maerz2019\Southtrac\Daten_Kampagnenfluege\20190920_ST12_Lokalflug_RG5\ECD\gauSGbase\chrom_20190920_201912161525.dat'$
+    ]
+    
+  path_expcfg = [$
+    'C:\WiMi_ab_Maerz2019\Southtrac\Daten_Kampagnenfluege\20190918_ST11_Lokalflug_RG4\ECD\20190918.chrom\IAU_DATAPROC\20190918.chrom_exp_info.csv',$
+    'C:\WiMi_ab_Maerz2019\Southtrac\Daten_Kampagnenfluege\20190918_ST11_Lokalflug_RG4\ECD\20190918.chrom\IAU_DATAPROC\20190918.chrom_exp_info.csv',$
+    'C:\WiMi_ab_Maerz2019\Southtrac\Daten_Kampagnenfluege\20190920_ST12_Lokalflug_RG5\ECD\20190920.chrom\IAU_DATAPROC\20190920.chrom_exp_info.csv'$
+    ]
 
   error_handler_IO = 0
 
